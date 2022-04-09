@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        This is am Israeli Pizza place contact us page, the Pizzeria loacated in Ben Gurion University BeerSheba
+    </title>
+</head>
+<body>
+
+    <hr class="hr" id="hr contact us"  color="orange"/>
+    <style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: orange;
+          color: white;
+          text-align: center;
+        }
+        </style>
+        <div class="footer">
+            <p>The Camel's Pizza</p>
+          </div>
+
+          <a href="homepage.html">
+            <button style="padding: 12px;" id="goBack" class="buttons">
+                Go Back
+            </button>
+        </a>
+
+          <h1 style="margin: 30px;color: orange;" id="mainHeader" class="Headers" >
+             <i> Contact Us ! </i>
+          </h1>
+          <h2 style="margin: 30px;" id="secondHeader" class="Headers">
+              Please fill the data Below
+          </h2>
+
+      
+    
+          <form action="homepage.html" method="post"> 
+           <div>
+           <label for="full name" style="margin: 30px;" id="full name label" >
+               Full name
+           </label> 
+           <input type="text" id="full name" class="data" name="full name" autocomplete="on" required> <br> 
+        </div>
+        <div>
+           <label for="email" style="margin: 30px;" id="email label">email</label>
+           <input type="email" id="email" class="data" name="email" required>
+        </div>
+        <div>
+            <label for="dateofbirth" id="date of birth lable" style="margin: 30px;">Date of Birth</label>
+            <input type="date" id="date of birth" name="date of birth" class="data">
+        </div>
+        <div>
+            <label for="phone" id="phone lable" style="margin: 30px;">Phone number</label>
+            <input type="tel" id="phone"class="data" name="phone" pattern="[0-9]{3}-[0-9]{7}"
+       required>
+        </div>
+
+        <span>
+        <label for="offers" id="offers lable" style="margin: 30px; "> I want to get special offers and discounts to my email </label>
+        <input type="checkbox" name="agreement" id="agreement" class="data">
+        <input type="submit" style="padding: 12px; " id="submit" name="submit" class="buttoms">
+            <!--6 diffrent types of input-->
+
+        </span>
+    <br>
+        <img src="C:\Users\sfron\Documents\Erez-Babai\Static\BGU.png" alt="Ben Gurion University symbol" style="width: 140px; margin: 30px;" class="images" id="BGU pic" >
+        <img src="C:\Users\sfron\Documents\Erez-Babai\Static\CamelPhone.jpg" alt="Camel phone" style="width: 140px;" class="images" id="Camel Phone">
+    </form>
+</body>
+</html>
