@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="Css.css">
     <title>
     This is am Israeli Pizza place home page, the Pizzeria loacated in Ben Gurion University BeerSheba
     <!--The user will not see that -->
@@ -8,8 +9,13 @@
 </title>
 </head>
 
-<body>
-  <hr class="hr" id="homepage hr"color="orange"/>
+<body id="homepageBody">
+  <nav>
+    <a href="contactUs.html">Contact Us page</a>
+    <a href="https://in.bgu.ac.il/Pages/default.aspx">Ben Gurion University Website</a>
+</nav>
+
+  <hr class="hr" id="homepage hr" color="orange"/>
     <style>
         .footer { 
           position: fixed;
@@ -25,7 +31,7 @@
             <p>The Camel's Pizza</p>
           </div>
           <!--footer for both pages -->
-<h1 class="Headers" id="mainHeader" style="margin-left: 30px; border: 4px orange ; border-style: dashed; padding: 30px;color: orange;">
+<h1 class="mainHeader" id="mainHeaderhomepage" >
 
   <i>Welcome to The Camel's Pizza  </i>
 </h1>
@@ -33,28 +39,29 @@
     We are offering an incredible pizza, in student prices!
 </h2>
 <p class="text" id="firstText" >
-  <span style="margin-left: 30px;">
+  <span class="spans" >
 <ins>So if you want to try the hottest pizza in the desert just CALL US!</ins>
 </span>
+<br> <br>
+<img src="..\Static\Camel.jpg" alt="Camel eat pizza" style="width: 250px;"id="camel eat pizza pic" class="images">
 <br>
-<img src="C:\Users\sfron\Documents\Erez-Babai\Static\Camel.jpg" alt="Camel eat pizza" style="width: 250px;"id="camel eat pizza pic" class="images">
-<br>
-<div style="margin-left: 30px;">
-<strong>08-9795354 </strong>
-<br>
+
+<span class="spans">
+08-9795354 
 Since 2022
+</spans>
+<div id="div" >
+<img src="..\Static\BGU.png" alt="Ben Gurion University symbol"  class="imagesButoom" id="BGU symbol pic">
+<img src="..\Static\PizzaGif.gif" alt="Pizza gif"  class="imagesButoom" id="pizza gif">
 </div>
-<span style="margin: 30px;">
-<img src="C:\Users\sfron\Documents\Erez-Babai\Static\BGU.png" alt="Ben Gurion University symbol" style="width: 80px;" class="images" id="BGU symbol pic">
-<img src="C:\Users\sfron\Documents\Erez-Babai\Static\PizzaGif.gif" alt="Pizza gif" style="width: 80px; " class="gif" id="pizza gif">
-</span>
+
 <!--2 pics -->
 <div style="margin-left: 30px;">
 Located near Building Num.72.
 </div>
 </p>
 <a href="contactUs.html" >  
-    <button style="margin-left: 30px; border: 2px orange; border-style: double;  padding: 12px; " id="contact us button"  class="buttons">Contact Us!</button>  
+    <button  class="buttons">Contact Us!</button>  
     <!--All the box model -->
   </a>
   
